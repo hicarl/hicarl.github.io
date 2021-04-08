@@ -2,12 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hicarl.github.io</id>
     <title>忠孝節義</title>
-    <updated>2021-04-08T05:29:18.805Z</updated>
+    <updated>2021-04-08T05:30:39.243Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hicarl.github.io"/>
     <link rel="self" href="https://hicarl.github.io/atom.xml"/>
-    <subtitle>人生在世，貴盡忠孝節義等事，方於人道無愧，可立於天地之間；
-若不盡忠孝節義等事，身雖在世，其心已死，是謂偷生。</subtitle>
+    <subtitle>人生在世，貴盡忠孝節義等事，方於人道無愧，可立於天地之間</subtitle>
     <logo>https://hicarl.github.io/images/avatar.png</logo>
     <icon>https://hicarl.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 忠孝節義</rights>
