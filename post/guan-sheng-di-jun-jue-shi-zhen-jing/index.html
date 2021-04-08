@@ -1,169 +1,144 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>關聖帝君覺世真經 | 忠孝節義</title>
-<link rel="shortcut icon" href="http://hicarl.github.io/favicon.ico?v=1617857139189">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="http://hicarl.github.io/favicon.ico?v=1617857674348">
 <link rel="stylesheet" href="http://hicarl.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="關聖帝君覺世真經 | 忠孝節義 - Atom Feed" href="http://hicarl.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
     <meta name="description" content="帝君曰。人生在世。貴盡忠孝節義等事。方於人道無愧。可立身於天地之間。若不盡忠孝節義等事。身雖在世。其心已死。是謂偷生。凡人心即神。神即心。無愧心。無愧神。若是欺心。便是欺神。故君子三畏、四知。以慎其獨。勿謂暗室可欺。屋漏可愧。壹動壹靜。神明..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="http://hicarl.github.io">
-  <img class="avatar" src="http://hicarl.github.io/images/avatar.png?v=1617857139189" alt="">
-  </a>
-  <h1 class="site-title">
-    忠孝節義
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://hicarl.github.io">
+        <img src="http://hicarl.github.io/images/avatar.png?v=1617857674348" class="site-logo">
+        <h1 class="site-title">忠孝節義</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://hicarl.github.io/" target="_blank">Gridea</a> | <a class="rss" href="http://hicarl.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              關聖帝君覺世真經
-            </h2>
-            <div class="post-info">
-              <span>
-                2021-04-07
-              </span>
-              <span>
-                3 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">關聖帝君覺世真經</h2>
+            <div class="post-date">2021-04-07</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>帝君曰。人生在世。貴盡忠孝節義等事。方於人道無愧。可立身於天地之間。若不盡忠孝節義等事。身雖在世。其心已死。是謂偷生。凡人心即神。神即心。無愧心。無愧神。若是欺心。便是欺神。故君子三畏、四知。以慎其獨。勿謂暗室可欺。屋漏可愧。壹動壹靜。神明鑒察。十目十手。理所必至。況報應昭昭。不爽毫發。淫為諸惡首。孝為百行原。但有逆理於心有愧者。勿謂有利而行之。凡合理於心無愧者。勿謂無利而不行。若負吾教。請試吾刀。<br>
+            <div class="post-content" v-pre>
+              <p>帝君曰。人生在世。貴盡忠孝節義等事。方於人道無愧。可立身於天地之間。若不盡忠孝節義等事。身雖在世。其心已死。是謂偷生。凡人心即神。神即心。無愧心。無愧神。若是欺心。便是欺神。故君子三畏、四知。以慎其獨。勿謂暗室可欺。屋漏可愧。壹動壹靜。神明鑒察。十目十手。理所必至。況報應昭昭。不爽毫發。淫為諸惡首。孝為百行原。但有逆理於心有愧者。勿謂有利而行之。凡合理於心無愧者。勿謂無利而不行。若負吾教。請試吾刀。<br>
 敬天地。禮神明。奉祖先。孝雙親。守王法。重師尊。愛兄弟。信友朋。睦宗族。和鄉鄰。別夫婦。教子孫。時行方便。廣積陰功。救難濟急。恤孤憐貧。創修廟宇。印造經文。舍藥施茶。戒殺放生。造橋修路。矜寡拔困。重粟惜福。排難解紛。損貲成美。垂訓教人。冤仇解釋。鬥秤公平。親近有德。遠避兇人。隱惡揚善。利物救民。回心向道。改過自新。滿腔仁慈。惡念不存。壹切善事。信心奉行。人雖不見。神已早聞。加福增壽。添子益孫。災消病減。禍患不侵。人物鹹寧。吉星照臨。<br>
 若存惡心。不行善事。淫人妻女。破人婚姻。壞人名節。妒人技能。謀人財產。唆人爭訟。損人利己。肥家潤身。恨天怨地。罵雨呵風。謗聖毀賢。滅像欺神。宰殺牛犬。穢溺字紙。恃勢辱善。倚富壓貧。離人骨肉。間人兄弟。不信正道。奸盜邪淫。好尚奢詐。不重儉勤。輕棄五谷。不報有恩。瞞心昧己。大鬥小秤。假立邪教。引誘愚人。托說升天。斂物行淫。明瞞暗騙。橫言曲語。白日咒詛。背地謀害。不存天理。不順人心。不信報應。引人作惡。不修片善。行諸惡事。官詞口舌。水火盜賊。惡毒瘟疫。生敗產蠢。殺身亡家。男盜女淫。近報在身。遠報子孫。<br>
 神明鑒察。毫發不紊。善惡兩途。禍福攸分。行善福報。作惡禍臨。<br>
 我作斯語。願人奉行。言雖淺近。大益身心。戲侮吾言。斬首分形。有能持誦。消兇聚慶。求子得子。求壽得壽。富貴功名。皆能有成。凡有所祈。如意而獲。萬禍雪消。千祥雲集。諸如此福。惟善可致。吾本無私。惟佑善人。眾善奉行。毋怠厥誌。</p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
             </div>
-          </article>
-        </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://hicarl.github.io/post/guan-sheng-di-jun-fu-mo-hu-dao-zhang-gan-shi-zhang/">
+                  <h3 class="post-title">
+                    關聖帝君伏魔護道彰感誓章
+                  </h3>
+                </a>
+              </div>
+            
 
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="http://hicarl.github.io/post/guan-sheng-di-jun-fu-mo-hu-dao-zhang-gan-shi-zhang/">
-              <h3 class="post-title">
-                關聖帝君伏魔護道彰感誓章
-              </h3>
-            </a>
+            
+
           </div>
-        
 
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://hicarl.github.io/" target="_blank">Gridea</a>
-  <a class="rss" href="http://hicarl.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
+
+
+
   </body>
 </html>
